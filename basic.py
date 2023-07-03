@@ -92,5 +92,5 @@ def run(hotel_code, start_date, end_date):
     print(df)
 
 if __name__ == '__main__':
-    run('itmph', '2023-12-01', '2023-12-31')
+    run(sys.argv[1], sys.argv[2], sys.argv[3])
 
